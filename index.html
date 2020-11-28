@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <h2>CatPhotoApp</h2>
+    <!-- Link to  Pages with Anchor Elements
+    External: open in new pesta;a
+    internal:open inside of same page
+    Redirection: to an ID on the same page
+    
+    -->
+    <a href="#contacts-header">Contacts</a>
+    <!-- ------------------- 
+    Nest an Anchor Element within a Paragraph
+    -->
+    <p>
+        Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
+      </p>
+
+
+    <main>
+      <p>Click here to view more <a href="#">cat photos</a>.</p>
+    
+      <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+    <div>
+      <p>Things cats love:</p>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <p>Top 3 things cats hate:</p>
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+      </div>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <!-- --------------TYPE RADIO INPUT------------ 
+        If you omit the value attribute, the submitted form data uses the default value, which is on. In this scenario, if the user clicked the "indoor" option and submitted the form, the resulting form data would be indoor-outdoor=on, which is not useful.
+        -->
+        <!-- ----SE ENVIA AL SERVIDOR NAME=VALUE (el nombre de la variable y el valor que tiene)----- -->
+        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"checked> Indoor</label>
+        <!-- 
+            atributos
+            checked(comprobado)= marca por defecto la entrada que lo tiene//marks by default the entry that has it
+            required(requerido)= no permite enviar el valor sin que antes sea llenado//does not allow sending the value without first filling it
+         -->
+        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        <!-- ------------------------- -->
+        <br>
+        <!-- -----------------------CHECK BOX----------------- -->
+        <label for="loving">
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> 
+            Loving</label>
+        <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+
+        <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label>
+        <br>
+        <input type="text" placeholder="cat photo URL" required>
+        <!-- -----------
+        placeholder: Something used or included temporarily or as a substitute for something that is not known or must remain generic; that which holds
+        -->
+        <button type="submit">Submit</button>
+
+        <!--        ***DIV*** TAG
+            The div element, also known as a division element, is a general purpose container for other elements.
+
+         -->
+      </form>
+    </main>
+    <h2 id="contacts-header">Contacts</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita in rerum aspernatur sed iusto doloribus dolorum aliquid totam quas placeat eveniet dolores laboriosam autem, vitae sunt repellendus blanditiis nam delectus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem illum quo, eaque, possimus reprehenderit nostrum voluptate beatae voluptatem fuga provident itaque! Nihil maxime incidunt recusandae debitis. Atque, a perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, impedit natus est, quibusdam eligendi adipisci nulla, quo fuga rerum esse nobis eum suscipit earum deleniti sed et similique provident? Quae.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita in rerum aspernatur sed iusto doloribus dolorum aliquid totam quas placeat eveniet dolores laboriosam autem, vitae sunt repellendus blanditiis nam delectus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem illum quo, eaque, possimus reprehenderit nostrum voluptate beatae voluptatem fuga provident itaque! Nihil maxime incidunt recusandae debitis. Atque, a perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, impedit natus est, quibusdam eligendi adipisci nulla, quo fuga rerum esse nobis eum suscipit earum deleniti sed et similique provident? Quae.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita in rerum aspernatur sed iusto doloribus dolorum aliquid totam quas placeat eveniet dolores laboriosam autem, vitae sunt repellendus blanditiis nam delectus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem illum quo, eaque, possimus reprehenderit nostrum voluptate beatae voluptatem fuga provident itaque! Nihil maxime incidunt recusandae debitis. Atque, a perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, impedit natus est, quibusdam eligendi adipisci nulla, quo fuga rerum esse nobis eum suscipit earum deleniti sed et similique provident? Quae.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita in rerum aspernatur sed iusto doloribus dolorum aliquid totam quas placeat eveniet dolores laboriosam autem, vitae sunt repellendus blanditiis nam delectus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quidem illum quo, eaque, possimus reprehenderit nostrum voluptate beatae voluptatem fuga provident itaque! Nihil maxime incidunt recusandae debitis. Atque, a perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, impedit natus est, quibusdam eligendi adipisci nulla, quo fuga rerum esse nobis eum suscipit earum deleniti sed et similique provident? Quae.
+    </p>
+    <h2 id="contacts-header">Contacts</h2>
+    <h5>Here the lugar of contacts</h5>
+</body>
+</html>
